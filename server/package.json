@@ -4,6 +4,11 @@
   "description": "* Title - Text * Description - Text * Comments - Text * Rating - scale of 1 - 10 * Image - Text - URL * Latitude - Number * Longitude - Number * Created At - DateTime * Updated At - DateTime",
   "main": ".eslintrc.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/"
+  },
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
